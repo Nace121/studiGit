@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.p_resume{
+    border: 5px black solid;
+}
