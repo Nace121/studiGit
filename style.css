@@ -27,7 +27,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /*  ajout du commentaire pour git */
+    /*  ajout du commentaire pour git 
+    ce commit etait ajouter depui vsCode et modifieé sur github*/
     left: 75%;
     border: black 1px solid;
     border-radius: 50% ;
