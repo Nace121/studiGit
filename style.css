@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 *{
     box-sizing: border-box;
+    font-family:"Nunito", sans-serif;
 }
 body{
     background-color: aqua;
+    
 }
 .container{
     display: flex;
@@ -11,4 +15,27 @@ body{
 }
 .p_resume{
     border: 2px orange solid;
+    background-color: rgb(215, 230, 12);
+}
+.versi, .collab, .sauve{
+    line-height: 1.5;
+    background-color: bisque;
+    padding: 3px 10px;
+    border: black 1px solid;
+}
+.resources {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 75%;
+    border: black 1px solid;
+    border-radius: 50% ;
+    background-color:rgb(178, 236, 195) ;
+    height: 120px;
+    width: 120px;
+}
+.resources a {
+    color: rgb(190, 14, 14);
+    text-decoration: none;
+    letter-spacing: 1px;
 }
